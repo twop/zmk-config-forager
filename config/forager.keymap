@@ -199,6 +199,11 @@
             key-positions = <11 12 13>;
             layers = <2>;
         };
+
+        base-switch-to-system {
+            bindings = <&mo 5>;
+            key-positions = <0 4>;
+        };
     };
 
     keymap {
