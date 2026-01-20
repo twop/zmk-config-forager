@@ -17,12 +17,12 @@
  * SPDX-License-Identifier: MIT
  */
 
-&lt {                                                                                                        
+&lt {
     quick-tap-ms = <200>;
     tapping-term-ms = <150>;
     flavor = "balanced";
 };
-                                                                                                            
+
 &mt { quick-tap-ms = <200>; };
 
 / {
@@ -211,6 +211,18 @@
         base-switch-to-system {
             bindings = <&mo 5>;
             key-positions = <0 4>;
+        };
+
+        def-io-to-colon {
+            bindings = <&kp COLON>;
+            key-positions = <7 8>;
+            layers = <1>;
+        };
+
+        def-we-to-tab-and-arrow-layer {
+            bindings = <&lt 1 TAB>;
+            key-positions = <1 2>;
+            layers = <2>;
         };
     };
 
