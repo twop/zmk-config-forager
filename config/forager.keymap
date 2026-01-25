@@ -192,13 +192,13 @@
         };
 
         copy_shortcut {
-            bindings = <&lt 1 TAB>;
+            bindings = <&lt 1 LG(C)>;
             key-positions = <21 22>;
         };
 
-        def-sdf-to-tab {
-            bindings = <&kp LG(C)>;
-            key-positions = <11 12 13>;
+        def-sd-to-tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
             layers = <0>;
         };
 
@@ -219,7 +219,7 @@
             layers = <0>;
         };
 
-        def-we-to-tab-and-arrow-layer {
+        def-we-to-meh {
             bindings = <&kp LA(LC(LEFT_SHIFT))>;
             key-positions = <1 2>;
             layers = <0>;
